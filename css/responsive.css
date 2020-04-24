@@ -1,0 +1,160 @@
+
+/*Tablet*/
+
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  /*Extra 3 begin --- by ilham_elhamdi*/
+  .extra-3 h2 {
+    font-size: 24px;
+  }
+  .extra-3 .form-wrapper {
+    width: 100%;
+    padding: 0px;
+  }
+  .extra-3 .map-wrapper {
+    margin: 15px 0;
+    width: 100%;
+    height: 300px;
+  }
+  .extra-3 .btn {
+    margin: 0;
+  }
+  /*Extra 3 begin --- by ilham_elhamdi*/
+
+
+
+  footer input[type=text] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../img/send.jpg');
+  background-position: 290px 6px; 
+  background-size:30px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border:none;
+  float:center;
+}
+
+
+}
+
+
+/*Smartphone*/
+
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right{
+    display:none;
+  }
+  
+  .menu-icon{
+    display:block;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+
+  /* Extra 3 begin --- by ilham_elhamdi*/
+  .extra-3 h2 {
+    font-size: 22px;
+  }
+  .extra-3 .name, .extra-3 .email {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .extra-3 .btn {
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* Extra 3 end --- by ilham_elhamdi*/
+
+
+/* footer  by khusnul */
+
+    footer input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('../img/send.jpg');
+  background-position: 290px 6px; 
+  background-size:30px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border:none;
+  float:center;
+}
+
+footer .list-footer{
+  float: center;
+  margin-top: 40px;
+}
+footer .list-footer a{
+  margin: 5px;
+  color: white;
+  opacity: 0.6;
+}
+footer .list-footer a:hover{
+  color: white;
+  opacity: 1;
+}
+
+footer .list-footer:hover{
+  float: center;
+  margin-top: 40px;
+  animation: text 3s 1;
+}
+
+/* footer  by khusnul */
+
+}
